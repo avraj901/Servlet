@@ -20,9 +20,12 @@
 <tr>
 <tr>
 </tr>
+<tr><td colspan="2"><input type="hidden" name="clientToken" value="${serverToken}"></td></tr>
 <tr>
 <td><input type="submit" vlaue="register"></td>
 <td><input type="reset" value="cancel">
 </tr>
+
 </table>
 </form>
+Request count :: ${reqCount}
